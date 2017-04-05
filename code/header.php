@@ -54,8 +54,8 @@
                 ?>
 
 				<a id="logo" href="<?php echo home_url(); ?>" style="width:<?php echo get_option('krown_logo_width', '117'); ?>px;height:<?php echo get_option('krown_logo_height', '23'); ?>px">
-					<img class="default" src="<?php echo get_stylesheet_directory_uri(); ?>/images/eaf-logo.png" alt="<?php bloginfo('name'); ?>" />
-					<img class="retina" src="<?php echo get_stylesheet_directory_uri(); ?>/images/eaf-logo.png" alt="<?php bloginfo('name'); ?>" />
+					<img class="default" src="<?php echo $logo; ?>" alt="<?php bloginfo('name'); ?>" />
+					<img class="retina" src="<?php echo $logo; ?>" alt="<?php bloginfo('name'); ?>" />
 				</a>
 				<!-- Logo End -->
 
