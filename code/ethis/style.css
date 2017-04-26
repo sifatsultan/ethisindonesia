@@ -1,0 +1,409 @@
+/*
+Theme Name:     Ethis                
+Description:    Customised theme for Ethis
+Author:         Yousuf                   
+Author URI:     http://solvabl.com/
+Template:       backer                             
+Version:        2.0                                    
+*/
+
+@import url("../backer/style.css");
+
+/* Write your custom CSS codes after this line */
+
+#project-sidebar.separator,#project-p-author{display:none;}
+#project-sidebar.id-widget.level-binding:first-child{border-top:none;}
+
+
+/*** social widget at the bottom ***/
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social {
+  text-align: left;
+}
+
+.smGlobalBtn{ /* global button class */
+    margin-left: 16px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+}
+
+/* pinterest button class*/
+.pinterestBtn{
+    background: #cb2027;
+}
+
+.pinterestBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d2"; /* add pinterest icon */
+}
+
+.pinterestBtn:hover{
+      color: #cb2027;
+      background: #fff;
+}
+
+/* tumblr button class*/
+.tumblrBtn{
+    background: #3a5876;
+}
+
+.tumblrBtn:before{
+      font-family: "FontAwesome";
+      content: "\f173"; /* add tumblr icon */
+}
+
+.tumblrBtn:hover{
+      color: #3a5876;
+      background: #fff;
+}
+
+/* rss button class*/
+.rssBtn{
+    background: #e88845;
+}
+
+.rssBtn:before{
+      font-family: "FontAwesome";
+      content: "\f09e"; /* add rss icon */
+}
+
+.rssBtn:hover{
+      color: #e88845;
+      background: #fff;
+}
+
+/*** end of social widget at the bottom ***/
+
+/*** for tables at home page & a bit under project***/
+.tg  {border: none;}
+.tg td{padding:10px 5px;overflow:hidden;word-break:normal;border: none;}
+.tg th{padding:10px 5px;overflow:hidden;word-break:normal;border: none;}
+.tg .tg-yw4l{vertical-align:centre;}
+.tr {border: none;}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}
+/*** end of for tables at home page***/
+
+/*** for tables under projects at discover page***/
+.tg .tg-yw5l{
+    text-align:left; 
+    font-size: 1em;
+    font-weight: 300;
+    
+}
+
+.tg .tg-yw6l{
+    text-align:right; 
+    vertical-align:middle;
+    font-size: 1em;
+    font-weight: bold;
+}
+    
+.tg .tg-yw7l{
+    vertical-align:middle;
+    width: 3.5em;
+}
+/*** end of for tables under projects at discover page***/
+
+/*** hide powered by ***/
+.poweredbyID{
+visibility: hidden;
+}
+/******/
+/** Typography **/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    margin: 20px 0;
+}
+h1 {
+    line-height: 65px;
+}
+p {
+    margin-bottom: 10px;
+}
+h4 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contents p {
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+/***  Header & Footer ***/
+#header {
+    background: #1d4f2a;
+    max-height: 80px;
+}
+#footer2 {
+    background: #47ab58;
+}
+.top-menu > li > a {
+    color:white;
+}
+#logo {
+    width: 300px!important;
+    height: auto!important;
+}
+#page-title {
+    margin-top: 30px!important;
+}
+/** Layout **/
+.krown-section {
+    padding: 90px 0 20px;
+}
+/** Woocommerce **/
+li.woocommerce-MyAccount-navigation-link {
+  border: 1px solid #f8f8f8;
+    cursor: default;
+    padding: 20px;
+    list-style-type: none;
+    background: #fff;
+}
+li.woocommerce-MyAccount-navigation-link:hover {
+    background: #ececec;
+}
+li.woocommerce-MyAccount-navigation-link a {
+  color: #000 !important;
+    text-transform: uppercase;
+}
+li.woocommerce-MyAccount-navigation-link.is-active {
+  border-top: 2px solid #000;
+  background: #ececec;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    width: 25%;
+    float: left;
+    margin-right: 2%;
+}
+.woocommerce-account .woocommerce-MyAccount-content {
+    width: 73%;
+    float: left;
+}
+@media (max-width: 600px) {
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    width: 100%;
+}
+.woocommerce-account .woocommerce-MyAccount-content {
+    width: 100%;
+}
+}
+.payment_methods li {
+    display: block;
+}
+.woocommerce form .form-row {
+    padding: 5px 0;
+}
+.woocommerce form .form-row label.inline {
+    display: block;
+}
+.woocommerce-message a.button {
+	display: none;
+}
+.woocommerce form.login {
+    max-width: 500px;
+}
+.id-widget .id-product-proposed-end .id-widget-date * {
+    padding: 2px;
+}
+/* Single Project Page */
+.id-product-total, .id-product-pledges {
+  display: none!important;
+}
+/** Others **/
+#content {
+    padding: 0 0 120px;
+}
+#main-menu {
+    padding: 40px 0!important;
+}
+@media (max-width: 979px) {
+#main-menu .responsive-menu {
+    top: 0;
+}
+}
+.wp-caption-text {
+    padding-top: 20px;
+}
+.carousel li {
+    margin-right: 0;
+}
+#custom-header {
+    top: -40px;
+}
+.krown-button.medium {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 20px;
+    height: auto;
+}
+body.single #project-sidebar .btn-container {
+	display: none!important;
+}
+#invest-other {
+	background: #ffffff;
+	border-top: 1px solid #ddd;
+}
+#invest-other p {
+	padding: 10px 30px;
+    font-size: 12px;
+}
+.btn-container2 {
+    margin: 0 15px;
+    text-align: center;
+}
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield select {
+    padding: 10px;
+    margin: 5px 0;
+}
+.gform_wrapper .instruction {
+    font-weight: normal;
+    font-style: italic;
+}
+.gform_wrapper textarea.small {
+    margin-bottom: 0;
+}
+.gform_wrapper .field_description_below .gfield_description {
+    padding-top: 0!important;
+    font-style: italic!important;
+    font-weight: normal!important;
+}
+.gform_wrapper .instruction {
+    display: none;
+}
+body {
+    overflow: hidden!important;
+}
+html, body {
+    height: initial!important;
+}
+.content table tr, .content table, .content table th, .content table td {
+    border: none!important;
+}
+.content table td:first-child {
+    text-align: right;
+    vertical-align: middle;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.content table td:last-child {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 5px 9px;
+    vertical-align: middle;
+  }
+/* Mobile Responsiveness */
+
+@media (max-width: 779px) {
+#project-sidebar {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 410px!important;
+}
+/*#project-sidebar .btn-container {
+    position: absolute!important;
+    display: block!important;
+    top: 80px;
+    left: 75px;
+  }*/
+#project-sidebar .btn-container2 {
+    position: absolute!important;
+    display: block!important;
+    left: 20px;
+  }
+.single-ignition_product #page-title {
+    padding-top: 0!important;
+}
+.rpdata .id-product-days-to-go, .rpdata .id-product-days, .id-product-proposed-end {
+  display: none;
+}
+}
+@media (max-width: 579px) {
+.rpdata:first-child {
+    margin-left: 20px;
+}
+#project-sidebar .btn-container {
+    left: 20px;
+}
+.id-widget .level-binding {
+    left: 0!important;
+}
+}
